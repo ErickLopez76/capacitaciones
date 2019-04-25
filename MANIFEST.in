@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include capacitaciones *.css
+recursive-include capacitaciones *.csv
+recursive-include capacitaciones *.html
+recursive-include capacitaciones *.ico
+recursive-include capacitaciones *.js
+recursive-include capacitaciones *.json
+recursive-include capacitaciones *.md
+recursive-include capacitaciones *.png
+recursive-include capacitaciones *.py
+recursive-include capacitaciones *.svg
+recursive-include capacitaciones *.txt
+recursive-exclude capacitaciones *.pyc
